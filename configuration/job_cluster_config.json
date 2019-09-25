@@ -1,0 +1,46 @@
+{
+  "total" : [
+    {
+      "industry" : [
+        {
+          "tablename" : "job_cloud",
+          "family" : "cloud",
+          "column" : "jobName,id,description",
+          "name" : "云计算",
+          "category" : "develop,operation,framework",
+          "skills": "office,部署,idc,dcos,openstack,vmware,云平台,docker,unix,linux,windows,aws,存储,集成,服务器,java,web,restful,gis,容器,devops,iaas,paas,kvm,xen,nfv,ovs,ceph,apache,samba,iptable,pam,snort,trapware,tcpwrapper,dba,mysql,oracle,sqlserver,nbu,tsm,osb,nosql,redis,mongodb,leveldb,spark,kubernetes,alluxio,python,c++,php,算法,数据结构,多线程,运维,路由,数据库,shell,django,devstack,分布式,开源,jquery,css,cca,vcp,pmp,ios,.net,jsp,asp,spring,缓存,Redis,nova,neutron,openflow,sdn,sfc,hadoop,cloud,qemu,libvirt,mesos,marathon,swarm,coreos,wsgi,nginx,rabbitmq,ajax,tcp/ip,flask,socket,mail,javaee,dubbo,hibernate,ibatis,hbase,hive,saas,cloudstack,nio,jvm,perl,http,emc,测试,监控,自动化,qc,loadrunner,qtp,ubuntu,虚拟化,ali,cloudform,raid,iscsi,san,nas,swift,阿里云,腾讯云,华为云,predix,azure,javascript,调试,vsphere,poc,centos,citrix,opennebula,hyperv,cluster,hdfs,ruby,vpn,云系统,防火墙,交换机,集群,tomac,数据分析,公有云,私有云"
+        }
+      ],
+      "classification" : [
+        {
+          "category": "sales",
+          "keywords": "售,客户经理,客服,销"
+        },
+        {
+          "category": "operation",
+          "keywords": "运维,维护,数据库"
+        },
+        {
+          "category": "other",
+          "keywords": "实习,培训,讲师"
+        },
+        {
+          "category": "framework",
+          "keywords": "架构"
+        },
+        {
+          "category": "market",
+          "keywords": "产品,市场,数据分析"
+        },
+        {
+          "category": "manage",
+          "keywords": "经理,总监,管理,主管"
+        },
+        {
+          "category": "develop",
+          "keywords": "开发,程序,软件,测试,工程师,云计算,云"
+        }
+      ]
+    }
+  ]
+}

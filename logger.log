@@ -1,0 +1,324 @@
+16:04:36,673 [Executor task launch worker for task 125] INFO  spark.executor.Executor         - Running task 1.0 in stage 62.0 (TID 125) 
+16:04:36,673 [Executor task launch worker for task 124] INFO  spark.executor.Executor         - Running task 0.0 in stage 62.0 (TID 124) 
+16:04:36,673 [Executor task launch worker for task 125] DEBUG spark.storage.BlockManager      - Getting local block broadcast_68 
+16:04:36,673 [Executor task launch worker for task 125] DEBUG spark.storage.BlockManager      - Level for block broadcast_68 is StorageLevel(disk, memory, deserialized, 1 replicas) 
+16:04:36,674 [Executor task launch worker for task 125] INFO  spark.executor.Executor         - Finished task 1.0 in stage 62.0 (TID 125). 614 bytes result sent to driver 
+16:04:36,674 [Executor task launch worker for task 124] INFO  spark.executor.Executor         - Finished task 0.0 in stage 62.0 (TID 124). 614 bytes result sent to driver 
+16:04:36,674 [dispatcher-event-loop-0] DEBUG spark.scheduler.TaskSchedulerImpl  - parentName: , name: TaskSet_62.0, runningTasks: 1 
+16:04:36,674 [dispatcher-event-loop-0] DEBUG spark.scheduler.TaskSetManager  - No tasks for locality level NO_PREF, so moving to locality level ANY 
+16:04:36,674 [dispatcher-event-loop-0] DEBUG spark.scheduler.TaskSchedulerImpl  - parentName: , name: TaskSet_62.0, runningTasks: 0 
+16:04:36,675 [task-result-getter-0] INFO  spark.scheduler.TaskSetManager  - Finished task 1.0 in stage 62.0 (TID 125) in 3 ms on localhost (executor driver) (1/2) 
+16:04:36,675 [task-result-getter-1] INFO  spark.scheduler.TaskSetManager  - Finished task 0.0 in stage 62.0 (TID 124) in 4 ms on localhost (executor driver) (2/2) 
+16:04:36,675 [task-result-getter-1] INFO  spark.scheduler.TaskSchedulerImpl  - Removed TaskSet 62.0, whose tasks have all completed, from pool  
+16:04:36,675 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - ResultStage 62 (collect at JobClusterUtils.java:73) finished in 0.007 s 
+16:04:36,675 [dag-scheduler-event-loop] DEBUG spark.scheduler.DAGScheduler    - After removal of stage 62, remaining stages = 0 
+16:04:36,675 [main] INFO  spark.scheduler.DAGScheduler    - Job 59 finished: collect at JobClusterUtils.java:73, took 0.007411 s 
+16:04:36,675 [main] DEBUG spark.util.ClosureCleaner       - +++ Cleaning closure <function1> (org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12) +++ 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -  + declared fields: 2 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -      public static final long org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.serialVersionUID 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -      private final org.apache.spark.rdd.RDD$$anonfun$collect$1 org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.$outer 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -  + declared methods: 2 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(java.lang.Object) 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(scala.collection.Iterator) 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -  + inner classes: 0 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -  + outer classes: 2 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -      org.apache.spark.rdd.RDD$$anonfun$collect$1 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -      org.apache.spark.rdd.RDD 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -  + outer objects: 2 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -      <function0> 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -      MapPartitionsRDD[24] at map at KMeansModel.scala:71 
+16:04:36,676 [main] DEBUG spark.util.ClosureCleaner       -  + populating accessed fields because this is the starting closure 
+16:04:36,677 [main] DEBUG spark.util.ClosureCleaner       -  + fields accessed by starting closure: 4 
+16:04:36,677 [main] DEBUG spark.util.ClosureCleaner       -      (class java.lang.Object,Set()) 
+16:04:36,677 [main] DEBUG spark.util.ClosureCleaner       -      (class scala.runtime.AbstractFunction0,Set()) 
+16:04:36,677 [main] DEBUG spark.util.ClosureCleaner       -      (class org.apache.spark.rdd.RDD$$anonfun$collect$1,Set($outer)) 
+16:04:36,677 [main] DEBUG spark.util.ClosureCleaner       -      (class org.apache.spark.rdd.RDD,Set(org$apache$spark$rdd$RDD$$evidence$1)) 
+16:04:36,677 [main] DEBUG spark.util.ClosureCleaner       -  + outermost object is not a closure or REPL line object, so do not clone it: (class org.apache.spark.rdd.RDD,MapPartitionsRDD[24] at map at KMeansModel.scala:71) 
+16:04:36,677 [main] DEBUG spark.util.ClosureCleaner       -  + cloning the object <function0> of class org.apache.spark.rdd.RDD$$anonfun$collect$1 
+16:04:36,677 [main] DEBUG spark.util.ClosureCleaner       -  + cleaning cloned closure <function0> recursively (org.apache.spark.rdd.RDD$$anonfun$collect$1) 
+16:04:36,677 [main] DEBUG spark.util.ClosureCleaner       - +++ Cleaning closure <function0> (org.apache.spark.rdd.RDD$$anonfun$collect$1) +++ 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -  + declared fields: 2 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -      public static final long org.apache.spark.rdd.RDD$$anonfun$collect$1.serialVersionUID 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -      private final org.apache.spark.rdd.RDD org.apache.spark.rdd.RDD$$anonfun$collect$1.$outer 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -  + declared methods: 2 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1.apply() 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -      public org.apache.spark.rdd.RDD org.apache.spark.rdd.RDD$$anonfun$collect$1.org$apache$spark$rdd$RDD$$anonfun$$$outer() 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -  + inner classes: 1 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -      org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -  + outer classes: 1 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -      org.apache.spark.rdd.RDD 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -  + outer objects: 1 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -      MapPartitionsRDD[24] at map at KMeansModel.scala:71 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -  + fields accessed by starting closure: 4 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -      (class java.lang.Object,Set()) 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -      (class scala.runtime.AbstractFunction0,Set()) 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -      (class org.apache.spark.rdd.RDD$$anonfun$collect$1,Set($outer)) 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -      (class org.apache.spark.rdd.RDD,Set(org$apache$spark$rdd$RDD$$evidence$1)) 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -  + outermost object is not a closure or REPL line object, so do not clone it: (class org.apache.spark.rdd.RDD,MapPartitionsRDD[24] at map at KMeansModel.scala:71) 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -  +++ closure <function0> (org.apache.spark.rdd.RDD$$anonfun$collect$1) is now cleaned +++ 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       -  +++ closure <function1> (org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12) is now cleaned +++ 
+16:04:36,678 [main] DEBUG spark.util.ClosureCleaner       - +++ Cleaning closure <function2> (org.apache.spark.SparkContext$$anonfun$runJob$5) +++ 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -  + declared fields: 2 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -      public static final long org.apache.spark.SparkContext$$anonfun$runJob$5.serialVersionUID 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -      private final scala.Function1 org.apache.spark.SparkContext$$anonfun$runJob$5.cleanedFunc$1 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -  + declared methods: 2 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$runJob$5.apply(java.lang.Object,java.lang.Object) 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$runJob$5.apply(org.apache.spark.TaskContext,scala.collection.Iterator) 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -  + inner classes: 0 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -  + outer classes: 0 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -  + outer objects: 0 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -  + populating accessed fields because this is the starting closure 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -  + fields accessed by starting closure: 0 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -  + there are no enclosing objects! 
+16:04:36,679 [main] DEBUG spark.util.ClosureCleaner       -  +++ closure <function2> (org.apache.spark.SparkContext$$anonfun$runJob$5) is now cleaned +++ 
+16:04:36,679 [main] INFO  apache.spark.SparkContext       - Starting job: collect at JobClusterUtils.java:75 
+16:04:36,679 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Got job 60 (collect at JobClusterUtils.java:75) with 2 output partitions 
+16:04:36,679 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Final stage: ResultStage 63 (collect at JobClusterUtils.java:75) 
+16:04:36,680 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Parents of final stage: List() 
+16:04:36,680 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Missing parents: List() 
+16:04:36,680 [dag-scheduler-event-loop] DEBUG spark.scheduler.DAGScheduler    - submitStage(ResultStage 63) 
+16:04:36,680 [dag-scheduler-event-loop] DEBUG spark.scheduler.DAGScheduler    - missing: List() 
+16:04:36,680 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Submitting ResultStage 63 (MapPartitionsRDD[24] at map at KMeansModel.scala:71), which has no missing parents 
+16:04:36,680 [dag-scheduler-event-loop] DEBUG spark.scheduler.DAGScheduler    - submitMissingTasks(ResultStage 63) 
+16:04:36,680 [dag-scheduler-event-loop] INFO  storage.memory.MemoryStore      - Block broadcast_69 stored as values in memory (estimated size 3.1 KB, free 1443.4 MB) 
+16:04:36,680 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManager      - Put block broadcast_69 locally took  0 ms 
+16:04:36,680 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManager      - Putting block broadcast_69 without replication took  0 ms 
+16:04:36,681 [dag-scheduler-event-loop] INFO  storage.memory.MemoryStore      - Block broadcast_69_piece0 stored as bytes in memory (estimated size 1904.0 B, free 1443.4 MB) 
+16:04:36,681 [dispatcher-event-loop-1] INFO  spark.storage.BlockManagerInfo  - Added broadcast_69_piece0 in memory on DESKTOP-8F3633O:61346 (size: 1904.0 B, free: 1443.5 MB) 
+16:04:36,681 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManagerMaster  - Updated info of block broadcast_69_piece0 
+16:04:36,681 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManager      - Told master about block broadcast_69_piece0 
+16:04:36,681 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManager      - Put block broadcast_69_piece0 locally took  0 ms 
+16:04:36,681 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManager      - Putting block broadcast_69_piece0 without replication took  0 ms 
+16:04:36,681 [dag-scheduler-event-loop] INFO  apache.spark.SparkContext       - Created broadcast 69 from broadcast at DAGScheduler.scala:1039 
+16:04:36,681 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Submitting 2 missing tasks from ResultStage 63 (MapPartitionsRDD[24] at map at KMeansModel.scala:71) (first 15 tasks are for partitions Vector(0, 1)) 
+16:04:36,682 [dag-scheduler-event-loop] INFO  spark.scheduler.TaskSchedulerImpl  - Adding task set 63.0 with 2 tasks 
+16:04:36,682 [dag-scheduler-event-loop] DEBUG spark.scheduler.TaskSetManager  - Epoch for TaskSet 63.0: 3 
+16:04:36,682 [dag-scheduler-event-loop] DEBUG spark.scheduler.TaskSetManager  - Valid locality levels for TaskSet 63.0: NO_PREF, ANY 
+16:04:36,682 [dispatcher-event-loop-0] DEBUG spark.scheduler.TaskSchedulerImpl  - parentName: , name: TaskSet_63.0, runningTasks: 0 
+16:04:36,682 [dispatcher-event-loop-0] INFO  spark.scheduler.TaskSetManager  - Starting task 0.0 in stage 63.0 (TID 126, localhost, executor driver, partition 0, PROCESS_LOCAL, 23638 bytes) 
+16:04:36,682 [dispatcher-event-loop-0] INFO  spark.scheduler.TaskSetManager  - Starting task 1.0 in stage 63.0 (TID 127, localhost, executor driver, partition 1, PROCESS_LOCAL, 23638 bytes) 
+16:04:36,682 [Executor task launch worker for task 126] INFO  spark.executor.Executor         - Running task 0.0 in stage 63.0 (TID 126) 
+16:04:36,682 [Executor task launch worker for task 127] INFO  spark.executor.Executor         - Running task 1.0 in stage 63.0 (TID 127) 
+16:04:36,682 [Executor task launch worker for task 127] DEBUG spark.storage.BlockManager      - Getting local block broadcast_69 
+16:04:36,682 [Executor task launch worker for task 127] DEBUG spark.storage.BlockManager      - Level for block broadcast_69 is StorageLevel(disk, memory, deserialized, 1 replicas) 
+16:04:36,683 [Executor task launch worker for task 127] INFO  spark.executor.Executor         - Finished task 1.0 in stage 63.0 (TID 127). 614 bytes result sent to driver 
+16:04:36,683 [Executor task launch worker for task 126] INFO  spark.executor.Executor         - Finished task 0.0 in stage 63.0 (TID 126). 614 bytes result sent to driver 
+16:04:36,683 [dispatcher-event-loop-1] DEBUG spark.scheduler.TaskSchedulerImpl  - parentName: , name: TaskSet_63.0, runningTasks: 1 
+16:04:36,683 [dispatcher-event-loop-1] DEBUG spark.scheduler.TaskSetManager  - No tasks for locality level NO_PREF, so moving to locality level ANY 
+16:04:36,683 [dispatcher-event-loop-1] DEBUG spark.scheduler.TaskSchedulerImpl  - parentName: , name: TaskSet_63.0, runningTasks: 0 
+16:04:36,683 [task-result-getter-2] INFO  spark.scheduler.TaskSetManager  - Finished task 1.0 in stage 63.0 (TID 127) in 1 ms on localhost (executor driver) (1/2) 
+16:04:36,683 [task-result-getter-3] INFO  spark.scheduler.TaskSetManager  - Finished task 0.0 in stage 63.0 (TID 126) in 1 ms on localhost (executor driver) (2/2) 
+16:04:36,683 [task-result-getter-3] INFO  spark.scheduler.TaskSchedulerImpl  - Removed TaskSet 63.0, whose tasks have all completed, from pool  
+16:04:36,683 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - ResultStage 63 (collect at JobClusterUtils.java:75) finished in 0.003 s 
+16:04:36,683 [dag-scheduler-event-loop] DEBUG spark.scheduler.DAGScheduler    - After removal of stage 63, remaining stages = 0 
+16:04:36,683 [main] INFO  spark.scheduler.DAGScheduler    - Job 60 finished: collect at JobClusterUtils.java:75, took 0.003956 s 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       - +++ Cleaning closure <function1> (org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12) +++ 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -  + declared fields: 2 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -      public static final long org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.serialVersionUID 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -      private final org.apache.spark.rdd.RDD$$anonfun$collect$1 org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.$outer 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -  + declared methods: 2 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(java.lang.Object) 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(scala.collection.Iterator) 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -  + inner classes: 0 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -  + outer classes: 2 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -      org.apache.spark.rdd.RDD$$anonfun$collect$1 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -      org.apache.spark.rdd.RDD 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -  + outer objects: 2 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -      <function0> 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -      MapPartitionsRDD[24] at map at KMeansModel.scala:71 
+16:04:36,684 [main] DEBUG spark.util.ClosureCleaner       -  + populating accessed fields because this is the starting closure 
+16:04:36,685 [main] DEBUG spark.util.ClosureCleaner       -  + fields accessed by starting closure: 4 
+16:04:36,685 [main] DEBUG spark.util.ClosureCleaner       -      (class java.lang.Object,Set()) 
+16:04:36,685 [main] DEBUG spark.util.ClosureCleaner       -      (class scala.runtime.AbstractFunction0,Set()) 
+16:04:36,685 [main] DEBUG spark.util.ClosureCleaner       -      (class org.apache.spark.rdd.RDD$$anonfun$collect$1,Set($outer)) 
+16:04:36,685 [main] DEBUG spark.util.ClosureCleaner       -      (class org.apache.spark.rdd.RDD,Set(org$apache$spark$rdd$RDD$$evidence$1)) 
+16:04:36,685 [main] DEBUG spark.util.ClosureCleaner       -  + outermost object is not a closure or REPL line object, so do not clone it: (class org.apache.spark.rdd.RDD,MapPartitionsRDD[24] at map at KMeansModel.scala:71) 
+16:04:36,685 [main] DEBUG spark.util.ClosureCleaner       -  + cloning the object <function0> of class org.apache.spark.rdd.RDD$$anonfun$collect$1 
+16:04:36,685 [main] DEBUG spark.util.ClosureCleaner       -  + cleaning cloned closure <function0> recursively (org.apache.spark.rdd.RDD$$anonfun$collect$1) 
+16:04:36,685 [main] DEBUG spark.util.ClosureCleaner       - +++ Cleaning closure <function0> (org.apache.spark.rdd.RDD$$anonfun$collect$1) +++ 
+16:04:36,686 [main] DEBUG spark.util.ClosureCleaner       -  + declared fields: 2 
+16:04:36,686 [main] DEBUG spark.util.ClosureCleaner       -      public static final long org.apache.spark.rdd.RDD$$anonfun$collect$1.serialVersionUID 
+16:04:36,686 [main] DEBUG spark.util.ClosureCleaner       -      private final org.apache.spark.rdd.RDD org.apache.spark.rdd.RDD$$anonfun$collect$1.$outer 
+16:04:36,686 [main] DEBUG spark.util.ClosureCleaner       -  + declared methods: 2 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1.apply() 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -      public org.apache.spark.rdd.RDD org.apache.spark.rdd.RDD$$anonfun$collect$1.org$apache$spark$rdd$RDD$$anonfun$$$outer() 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -  + inner classes: 1 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -      org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -  + outer classes: 1 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -      org.apache.spark.rdd.RDD 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -  + outer objects: 1 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -      MapPartitionsRDD[24] at map at KMeansModel.scala:71 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -  + fields accessed by starting closure: 4 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -      (class java.lang.Object,Set()) 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -      (class scala.runtime.AbstractFunction0,Set()) 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -      (class org.apache.spark.rdd.RDD$$anonfun$collect$1,Set($outer)) 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -      (class org.apache.spark.rdd.RDD,Set(org$apache$spark$rdd$RDD$$evidence$1)) 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -  + outermost object is not a closure or REPL line object, so do not clone it: (class org.apache.spark.rdd.RDD,MapPartitionsRDD[24] at map at KMeansModel.scala:71) 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -  +++ closure <function0> (org.apache.spark.rdd.RDD$$anonfun$collect$1) is now cleaned +++ 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       -  +++ closure <function1> (org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12) is now cleaned +++ 
+16:04:36,687 [main] DEBUG spark.util.ClosureCleaner       - +++ Cleaning closure <function2> (org.apache.spark.SparkContext$$anonfun$runJob$5) +++ 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -  + declared fields: 2 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -      public static final long org.apache.spark.SparkContext$$anonfun$runJob$5.serialVersionUID 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -      private final scala.Function1 org.apache.spark.SparkContext$$anonfun$runJob$5.cleanedFunc$1 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -  + declared methods: 2 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$runJob$5.apply(java.lang.Object,java.lang.Object) 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$runJob$5.apply(org.apache.spark.TaskContext,scala.collection.Iterator) 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -  + inner classes: 0 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -  + outer classes: 0 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -  + outer objects: 0 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -  + populating accessed fields because this is the starting closure 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -  + fields accessed by starting closure: 0 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -  + there are no enclosing objects! 
+16:04:36,688 [main] DEBUG spark.util.ClosureCleaner       -  +++ closure <function2> (org.apache.spark.SparkContext$$anonfun$runJob$5) is now cleaned +++ 
+16:04:36,688 [main] INFO  apache.spark.SparkContext       - Starting job: collect at JobClusterUtils.java:73 
+16:04:36,689 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Got job 61 (collect at JobClusterUtils.java:73) with 2 output partitions 
+16:04:36,689 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Final stage: ResultStage 64 (collect at JobClusterUtils.java:73) 
+16:04:36,689 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Parents of final stage: List() 
+16:04:36,689 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Missing parents: List() 
+16:04:36,689 [dag-scheduler-event-loop] DEBUG spark.scheduler.DAGScheduler    - submitStage(ResultStage 64) 
+16:04:36,689 [dag-scheduler-event-loop] DEBUG spark.scheduler.DAGScheduler    - missing: List() 
+16:04:36,689 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Submitting ResultStage 64 (MapPartitionsRDD[24] at map at KMeansModel.scala:71), which has no missing parents 
+16:04:36,689 [dag-scheduler-event-loop] DEBUG spark.scheduler.DAGScheduler    - submitMissingTasks(ResultStage 64) 
+16:04:36,689 [dag-scheduler-event-loop] INFO  storage.memory.MemoryStore      - Block broadcast_70 stored as values in memory (estimated size 3.1 KB, free 1443.4 MB) 
+16:04:36,690 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManager      - Put block broadcast_70 locally took  1 ms 
+16:04:36,690 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManager      - Putting block broadcast_70 without replication took  1 ms 
+16:04:36,691 [dag-scheduler-event-loop] INFO  storage.memory.MemoryStore      - Block broadcast_70_piece0 stored as bytes in memory (estimated size 1904.0 B, free 1443.4 MB) 
+16:04:36,691 [dispatcher-event-loop-0] INFO  spark.storage.BlockManagerInfo  - Added broadcast_70_piece0 in memory on DESKTOP-8F3633O:61346 (size: 1904.0 B, free: 1443.5 MB) 
+16:04:36,691 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManagerMaster  - Updated info of block broadcast_70_piece0 
+16:04:36,691 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManager      - Told master about block broadcast_70_piece0 
+16:04:36,691 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManager      - Put block broadcast_70_piece0 locally took  0 ms 
+16:04:36,691 [dag-scheduler-event-loop] DEBUG spark.storage.BlockManager      - Putting block broadcast_70_piece0 without replication took  0 ms 
+16:04:36,691 [dag-scheduler-event-loop] INFO  apache.spark.SparkContext       - Created broadcast 70 from broadcast at DAGScheduler.scala:1039 
+16:04:36,692 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - Submitting 2 missing tasks from ResultStage 64 (MapPartitionsRDD[24] at map at KMeansModel.scala:71) (first 15 tasks are for partitions Vector(0, 1)) 
+16:04:36,692 [dag-scheduler-event-loop] INFO  spark.scheduler.TaskSchedulerImpl  - Adding task set 64.0 with 2 tasks 
+16:04:36,692 [dag-scheduler-event-loop] DEBUG spark.scheduler.TaskSetManager  - Epoch for TaskSet 64.0: 3 
+16:04:36,692 [dag-scheduler-event-loop] DEBUG spark.scheduler.TaskSetManager  - Valid locality levels for TaskSet 64.0: NO_PREF, ANY 
+16:04:36,692 [dispatcher-event-loop-1] DEBUG spark.scheduler.TaskSchedulerImpl  - parentName: , name: TaskSet_64.0, runningTasks: 0 
+16:04:36,692 [dispatcher-event-loop-1] INFO  spark.scheduler.TaskSetManager  - Starting task 0.0 in stage 64.0 (TID 128, localhost, executor driver, partition 0, PROCESS_LOCAL, 23638 bytes) 
+16:04:36,692 [dispatcher-event-loop-1] INFO  spark.scheduler.TaskSetManager  - Starting task 1.0 in stage 64.0 (TID 129, localhost, executor driver, partition 1, PROCESS_LOCAL, 23638 bytes) 
+16:04:36,692 [Executor task launch worker for task 128] INFO  spark.executor.Executor         - Running task 0.0 in stage 64.0 (TID 128) 
+16:04:36,692 [Executor task launch worker for task 129] INFO  spark.executor.Executor         - Running task 1.0 in stage 64.0 (TID 129) 
+16:04:36,693 [Executor task launch worker for task 129] DEBUG spark.storage.BlockManager      - Getting local block broadcast_70 
+16:04:36,693 [Executor task launch worker for task 129] DEBUG spark.storage.BlockManager      - Level for block broadcast_70 is StorageLevel(disk, memory, deserialized, 1 replicas) 
+16:04:36,693 [Executor task launch worker for task 128] INFO  spark.executor.Executor         - Finished task 0.0 in stage 64.0 (TID 128). 614 bytes result sent to driver 
+16:04:36,693 [dispatcher-event-loop-0] DEBUG spark.scheduler.TaskSchedulerImpl  - parentName: , name: TaskSet_64.0, runningTasks: 1 
+16:04:36,693 [Executor task launch worker for task 129] INFO  spark.executor.Executor         - Finished task 1.0 in stage 64.0 (TID 129). 614 bytes result sent to driver 
+16:04:36,693 [dispatcher-event-loop-0] DEBUG spark.scheduler.TaskSetManager  - No tasks for locality level NO_PREF, so moving to locality level ANY 
+16:04:36,693 [dispatcher-event-loop-0] DEBUG spark.scheduler.TaskSchedulerImpl  - parentName: , name: TaskSet_64.0, runningTasks: 0 
+16:04:36,693 [task-result-getter-0] INFO  spark.scheduler.TaskSetManager  - Finished task 0.0 in stage 64.0 (TID 128) in 1 ms on localhost (executor driver) (1/2) 
+16:04:36,693 [task-result-getter-1] INFO  spark.scheduler.TaskSetManager  - Finished task 1.0 in stage 64.0 (TID 129) in 1 ms on localhost (executor driver) (2/2) 
+16:04:36,693 [task-result-getter-1] INFO  spark.scheduler.TaskSchedulerImpl  - Removed TaskSet 64.0, whose tasks have all completed, from pool  
+16:04:36,694 [dag-scheduler-event-loop] INFO  spark.scheduler.DAGScheduler    - ResultStage 64 (collect at JobClusterUtils.java:73) finished in 0.004 s 
+16:04:36,694 [dag-scheduler-event-loop] DEBUG spark.scheduler.DAGScheduler    - After removal of stage 64, remaining stages = 0 
+16:04:36,694 [main] INFO  spark.scheduler.DAGScheduler    - Job 61 finished: collect at JobClusterUtils.java:73, took 0.005210 s 
+16:04:36,694 [main] DEBUG util.component.AbstractLifeCycle  - stopping org.spark_project.jetty.server.Server@1bd6bfb0 
+16:04:36,694 [main] DEBUG jetty.server.Server             - doStop org.spark_project.jetty.server.Server@1bd6bfb0 
+16:04:36,694 [main] DEBUG jetty.server.Server             - Graceful shutdown org.spark_project.jetty.server.Server@1bd6bfb0 by  
+16:04:36,694 [main] DEBUG util.component.AbstractLifeCycle  - stopping Spark@24ccc91b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040} 
+16:04:36,694 [SparkUI-429] DEBUG util.thread.QueuedThreadPool    - ran SparkUI-429-acceptor-0@6ddc817f-Spark@24ccc91b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040} 
+16:04:36,694 [main] DEBUG util.component.AbstractLifeCycle  - stopping org.spark_project.jetty.server.ServerConnector$ServerConnectorManager@26398f67 
+16:04:36,694 [main] DEBUG util.component.AbstractLifeCycle  - stopping org.spark_project.jetty.io.ManagedSelector@714a4ba2 id=3 keys=0 selected=0 
+16:04:36,694 [main] DEBUG jetty.io.ManagedSelector        - Stopping org.spark_project.jetty.io.ManagedSelector@714a4ba2 id=3 keys=0 selected=0 
+16:04:36,694 [main] DEBUG jetty.io.ManagedSelector        - Queued change org.spark_project.jetty.io.ManagedSelector$CloseEndPoints@5eb89000 on org.spark_project.jetty.io.ManagedSelector@714a4ba2 id=3 keys=0 selected=0 
+16:04:36,694 [SparkUI-428] DEBUG jetty.io.ManagedSelector        - Selector loop woken up from select, 0/0 selected 
+16:04:36,694 [SparkUI-428] DEBUG jetty.io.ManagedSelector        - Running change org.spark_project.jetty.io.ManagedSelector$CloseEndPoints@5eb89000 
+16:04:36,694 [SparkUI-428] DEBUG jetty.io.ManagedSelector        - Closing 0 endPoints on org.spark_project.jetty.io.ManagedSelector@714a4ba2 id=3 keys=0 selected=0 
+16:04:36,695 [main] DEBUG jetty.io.ManagedSelector        - Queued change org.spark_project.jetty.io.ManagedSelector$CloseSelector@16b1b213 on org.spark_project.jetty.io.ManagedSelector@714a4ba2 id=3 keys=0 selected=0 
+16:04:36,695 [SparkUI-428] DEBUG jetty.io.ManagedSelector        - Closed 0 endPoints on org.spark_project.jetty.io.ManagedSelector@714a4ba2 id=3 keys=0 selected=0 
+16:04:36,695 [SparkUI-428] DEBUG jetty.io.ManagedSelector        - Running change org.spark_project.jetty.io.ManagedSelector$CloseSelector@16b1b213 
+16:04:36,695 [SparkUI-428] DEBUG thread.strategy.ExecuteProduceConsume  - EPC Prod/org.spark_project.jetty.io.ManagedSelector$SelectorProducer@7df7be7f produced null 
+16:04:36,695 [SparkUI-428] DEBUG thread.strategy.ExecuteProduceConsume  - EPC Idle/org.spark_project.jetty.io.ManagedSelector$SelectorProducer@7df7be7f produce exit 
+16:04:36,695 [main] DEBUG jetty.io.ManagedSelector        - Stopped org.spark_project.jetty.io.ManagedSelector@714a4ba2 id=3 keys=-1 selected=-1 
+16:04:36,695 [SparkUI-428] DEBUG util.thread.QueuedThreadPool    - ran org.spark_project.jetty.io.ManagedSelector@714a4ba2 id=3 keys=-1 selected=-1 
+16:04:36,695 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED org.spark_project.jetty.io.ManagedSelector@714a4ba2 id=3 keys=-1 selected=-1 
+16:04:36,695 [main] DEBUG util.component.AbstractLifeCycle  - stopping org.spark_project.jetty.io.ManagedSelector@1b62ad1e id=2 keys=0 selected=0 
+16:04:36,695 [main] DEBUG jetty.io.ManagedSelector        - Stopping org.spark_project.jetty.io.ManagedSelector@1b62ad1e id=2 keys=0 selected=0 
+16:04:36,695 [main] DEBUG jetty.io.ManagedSelector        - Queued change org.spark_project.jetty.io.ManagedSelector$CloseEndPoints@77f1026e on org.spark_project.jetty.io.ManagedSelector@1b62ad1e id=2 keys=0 selected=0 
+16:04:36,695 [SparkUI-427] DEBUG jetty.io.ManagedSelector        - Selector loop woken up from select, 0/0 selected 
+16:04:36,695 [SparkUI-427] DEBUG jetty.io.ManagedSelector        - Running change org.spark_project.jetty.io.ManagedSelector$CloseEndPoints@77f1026e 
+16:04:36,695 [SparkUI-427] DEBUG jetty.io.ManagedSelector        - Closing 0 endPoints on org.spark_project.jetty.io.ManagedSelector@1b62ad1e id=2 keys=0 selected=0 
+16:04:36,695 [SparkUI-427] DEBUG jetty.io.ManagedSelector        - Closed 0 endPoints on org.spark_project.jetty.io.ManagedSelector@1b62ad1e id=2 keys=0 selected=0 
+16:04:36,695 [SparkUI-427] DEBUG jetty.io.ManagedSelector        - Selector loop waiting on select 
+16:04:36,695 [main] DEBUG jetty.io.ManagedSelector        - Queued change org.spark_project.jetty.io.ManagedSelector$CloseSelector@1df8c7f4 on org.spark_project.jetty.io.ManagedSelector@1b62ad1e id=2 keys=0 selected=0 
+16:04:36,695 [SparkUI-427] DEBUG jetty.io.ManagedSelector        - Selector loop woken up from select, 0/0 selected 
+16:04:36,695 [SparkUI-427] DEBUG jetty.io.ManagedSelector        - Running change org.spark_project.jetty.io.ManagedSelector$CloseSelector@1df8c7f4 
+16:04:36,695 [SparkUI-427] DEBUG thread.strategy.ExecuteProduceConsume  - EPC Prod/org.spark_project.jetty.io.ManagedSelector$SelectorProducer@79715cce produced null 
+16:04:36,696 [SparkUI-427] DEBUG thread.strategy.ExecuteProduceConsume  - EPC Idle/org.spark_project.jetty.io.ManagedSelector$SelectorProducer@79715cce produce exit 
+16:04:36,696 [SparkUI-427] DEBUG util.thread.QueuedThreadPool    - ran org.spark_project.jetty.io.ManagedSelector@1b62ad1e id=2 keys=-1 selected=-1 
+16:04:36,696 [main] DEBUG jetty.io.ManagedSelector        - Stopped org.spark_project.jetty.io.ManagedSelector@1b62ad1e id=2 keys=-1 selected=-1 
+16:04:36,696 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED org.spark_project.jetty.io.ManagedSelector@1b62ad1e id=2 keys=-1 selected=-1 
+16:04:36,696 [main] DEBUG util.component.AbstractLifeCycle  - stopping org.spark_project.jetty.io.ManagedSelector@401b7226 id=1 keys=0 selected=0 
+16:04:36,696 [main] DEBUG jetty.io.ManagedSelector        - Stopping org.spark_project.jetty.io.ManagedSelector@401b7226 id=1 keys=0 selected=0 
+16:04:36,696 [main] DEBUG jetty.io.ManagedSelector        - Queued change org.spark_project.jetty.io.ManagedSelector$CloseEndPoints@75a6cdb on org.spark_project.jetty.io.ManagedSelector@401b7226 id=1 keys=0 selected=0 
+16:04:36,697 [SparkUI-426] DEBUG jetty.io.ManagedSelector        - Selector loop woken up from select, 0/0 selected 
+16:04:36,697 [SparkUI-426] DEBUG jetty.io.ManagedSelector        - Running change org.spark_project.jetty.io.ManagedSelector$CloseEndPoints@75a6cdb 
+16:04:36,697 [SparkUI-426] DEBUG jetty.io.ManagedSelector        - Closing 0 endPoints on org.spark_project.jetty.io.ManagedSelector@401b7226 id=1 keys=0 selected=0 
+16:04:36,697 [SparkUI-426] DEBUG jetty.io.ManagedSelector        - Closed 0 endPoints on org.spark_project.jetty.io.ManagedSelector@401b7226 id=1 keys=0 selected=0 
+16:04:36,697 [SparkUI-426] DEBUG jetty.io.ManagedSelector        - Selector loop waiting on select 
+16:04:36,697 [main] DEBUG jetty.io.ManagedSelector        - Queued change org.spark_project.jetty.io.ManagedSelector$CloseSelector@1ce07709 on org.spark_project.jetty.io.ManagedSelector@401b7226 id=1 keys=0 selected=0 
+16:04:36,697 [SparkUI-426] DEBUG jetty.io.ManagedSelector        - Selector loop woken up from select, 0/0 selected 
+16:04:36,697 [SparkUI-426] DEBUG jetty.io.ManagedSelector        - Running change org.spark_project.jetty.io.ManagedSelector$CloseSelector@1ce07709 
+16:04:36,697 [SparkUI-426] DEBUG thread.strategy.ExecuteProduceConsume  - EPC Prod/org.spark_project.jetty.io.ManagedSelector$SelectorProducer@1d243357 produced null 
+16:04:36,697 [main] DEBUG jetty.io.ManagedSelector        - Stopped org.spark_project.jetty.io.ManagedSelector@401b7226 id=1 keys=-1 selected=-1 
+16:04:36,697 [SparkUI-426] DEBUG thread.strategy.ExecuteProduceConsume  - EPC Idle/org.spark_project.jetty.io.ManagedSelector$SelectorProducer@1d243357 produce exit 
+16:04:36,697 [SparkUI-426] DEBUG util.thread.QueuedThreadPool    - ran org.spark_project.jetty.io.ManagedSelector@401b7226 id=1 keys=-1 selected=-1 
+16:04:36,697 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED org.spark_project.jetty.io.ManagedSelector@401b7226 id=1 keys=-1 selected=-1 
+16:04:36,697 [main] DEBUG util.component.AbstractLifeCycle  - stopping org.spark_project.jetty.io.ManagedSelector@64ff0eaa id=0 keys=0 selected=0 
+16:04:36,697 [main] DEBUG jetty.io.ManagedSelector        - Stopping org.spark_project.jetty.io.ManagedSelector@64ff0eaa id=0 keys=0 selected=0 
+16:04:36,697 [main] DEBUG jetty.io.ManagedSelector        - Queued change org.spark_project.jetty.io.ManagedSelector$CloseEndPoints@637de489 on org.spark_project.jetty.io.ManagedSelector@64ff0eaa id=0 keys=0 selected=0 
+16:04:36,697 [SparkUI-425] DEBUG jetty.io.ManagedSelector        - Selector loop woken up from select, 0/0 selected 
+16:04:36,697 [SparkUI-425] DEBUG jetty.io.ManagedSelector        - Running change org.spark_project.jetty.io.ManagedSelector$CloseEndPoints@637de489 
+16:04:36,698 [SparkUI-425] DEBUG jetty.io.ManagedSelector        - Closing 0 endPoints on org.spark_project.jetty.io.ManagedSelector@64ff0eaa id=0 keys=0 selected=0 
+16:04:36,698 [SparkUI-425] DEBUG jetty.io.ManagedSelector        - Closed 0 endPoints on org.spark_project.jetty.io.ManagedSelector@64ff0eaa id=0 keys=0 selected=0 
+16:04:36,698 [main] DEBUG jetty.io.ManagedSelector        - Queued change org.spark_project.jetty.io.ManagedSelector$CloseSelector@38614875 on org.spark_project.jetty.io.ManagedSelector@64ff0eaa id=0 keys=0 selected=0 
+16:04:36,698 [SparkUI-425] DEBUG jetty.io.ManagedSelector        - Selector loop waiting on select 
+16:04:36,698 [SparkUI-425] DEBUG jetty.io.ManagedSelector        - Selector loop woken up from select, 0/0 selected 
+16:04:36,698 [SparkUI-425] DEBUG jetty.io.ManagedSelector        - Running change org.spark_project.jetty.io.ManagedSelector$CloseSelector@38614875 
+16:04:36,698 [SparkUI-425] DEBUG thread.strategy.ExecuteProduceConsume  - EPC Prod/org.spark_project.jetty.io.ManagedSelector$SelectorProducer@28a336d4 produced null 
+16:04:36,698 [main] DEBUG jetty.io.ManagedSelector        - Stopped org.spark_project.jetty.io.ManagedSelector@64ff0eaa id=0 keys=-1 selected=-1 
+16:04:36,698 [SparkUI-425] DEBUG thread.strategy.ExecuteProduceConsume  - EPC Idle/org.spark_project.jetty.io.ManagedSelector$SelectorProducer@28a336d4 produce exit 
+16:04:36,698 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED org.spark_project.jetty.io.ManagedSelector@64ff0eaa id=0 keys=-1 selected=-1 
+16:04:36,698 [SparkUI-425] DEBUG util.thread.QueuedThreadPool    - ran org.spark_project.jetty.io.ManagedSelector@64ff0eaa id=0 keys=-1 selected=-1 
+16:04:36,698 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED org.spark_project.jetty.server.ServerConnector$ServerConnectorManager@26398f67 
+16:04:36,698 [main] DEBUG util.component.AbstractLifeCycle  - stopping HttpConnectionFactory@1da5635e[HTTP/1.1] 
+16:04:36,698 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED HttpConnectionFactory@1da5635e[HTTP/1.1] 
+16:04:36,698 [main] DEBUG util.component.AbstractLifeCycle  - stopping org.spark_project.jetty.util.thread.ScheduledExecutorScheduler@d0538b3 
+16:04:36,698 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED org.spark_project.jetty.util.thread.ScheduledExecutorScheduler@d0538b3 
+16:04:36,698 [main] INFO  jetty.server.AbstractConnector  - Stopped Spark@24ccc91b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040} 
+16:04:36,698 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED Spark@24ccc91b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040} 
+16:04:36,698 [main] DEBUG server.handler.AbstractHandler  - stopping org.spark_project.jetty.server.Server@1bd6bfb0 
+16:04:36,698 [main] DEBUG util.component.AbstractLifeCycle  - stopping org.spark_project.jetty.server.handler.ContextHandlerCollection@7fb28ed[org.spark_project.jetty.server.handler.gzip.GzipHandler@764d54a0, org.spark_project.jetty.server.handler.gzip.GzipHandler@7ec729be, org.spark_project.jetty.server.handler.gzip.GzipHandler@130ad58d, org.spark_project.jetty.server.handler.gzip.GzipHandler@37a0c3c6, org.spark_project.jetty.server.handler.gzip.GzipHandler@751526a7, org.spark_project.jetty.server.handler.gzip.GzipHandler@58829c2c, org.spark_project.jetty.server.handler.gzip.GzipHandler@7c8cea05, org.spark_project.jetty.server.handler.gzip.GzipHandler@20e73e41, org.spark_project.jetty.server.handler.gzip.GzipHandler@549fe529, org.spark_project.jetty.server.handler.gzip.GzipHandler@110f66e3, org.spark_project.jetty.server.handler.gzip.GzipHandler@1b89debc, org.spark_project.jetty.server.handler.gzip.GzipHandler@590ab84, org.spark_project.jetty.server.handler.gzip.GzipHandler@597eb9ac, org.spark_project.jetty.server.handler.gzip.GzipHandler@7db63a01, org.spark_project.jetty.server.handler.gzip.GzipHandler@a1be5cb, org.spark_project.jetty.server.handler.gzip.GzipHandler@419c70f6, org.spark_project.jetty.server.handler.gzip.GzipHandler@15e748b5, org.spark_project.jetty.server.handler.gzip.GzipHandler@2e845f1c, org.spark_project.jetty.server.handler.gzip.GzipHandler@1eda853f, org.spark_project.jetty.server.handler.gzip.GzipHandler@7a0df38e, org.spark_project.jetty.server.handler.gzip.GzipHandler@3b0d9da, org.spark_project.jetty.server.handler.gzip.GzipHandler@2a20aa4e, org.spark_project.jetty.server.handler.gzip.GzipHandler@1ae2028d, org.spark_project.jetty.server.handler.gzip.GzipHandler@1f39b3ba, org.spark_project.jetty.server.handler.gzip.GzipHandler@17d25e1d, o.s.j.s.ServletContextHandler@f776b4a{/metrics/json,null,SHUTDOWN,@Spark}] 
+16:04:36,698 [main] DEBUG server.handler.AbstractHandler  - stopping org.spark_project.jetty.server.handler.ContextHandlerCollection@7fb28ed[org.spark_project.jetty.server.handler.gzip.GzipHandler@764d54a0, org.spark_project.jetty.server.handler.gzip.GzipHandler@7ec729be, org.spark_project.jetty.server.handler.gzip.GzipHandler@130ad58d, org.spark_project.jetty.server.handler.gzip.GzipHandler@37a0c3c6, org.spark_project.jetty.server.handler.gzip.GzipHandler@751526a7, org.spark_project.jetty.server.handler.gzip.GzipHandler@58829c2c, org.spark_project.jetty.server.handler.gzip.GzipHandler@7c8cea05, org.spark_project.jetty.server.handler.gzip.GzipHandler@20e73e41, org.spark_project.jetty.server.handler.gzip.GzipHandler@549fe529, org.spark_project.jetty.server.handler.gzip.GzipHandler@110f66e3, org.spark_project.jetty.server.handler.gzip.GzipHandler@1b89debc, org.spark_project.jetty.server.handler.gzip.GzipHandler@590ab84, org.spark_project.jetty.server.handler.gzip.GzipHandler@597eb9ac, org.spark_project.jetty.server.handler.gzip.GzipHandler@7db63a01, org.spark_project.jetty.server.handler.gzip.GzipHandler@a1be5cb, org.spark_project.jetty.server.handler.gzip.GzipHandler@419c70f6, org.spark_project.jetty.server.handler.gzip.GzipHandler@15e748b5, org.spark_project.jetty.server.handler.gzip.GzipHandler@2e845f1c, org.spark_project.jetty.server.handler.gzip.GzipHandler@1eda853f, org.spark_project.jetty.server.handler.gzip.GzipHandler@7a0df38e, org.spark_project.jetty.server.handler.gzip.GzipHandler@3b0d9da, org.spark_project.jetty.server.handler.gzip.GzipHandler@2a20aa4e, org.spark_project.jetty.server.handler.gzip.GzipHandler@1ae2028d, org.spark_project.jetty.server.handler.gzip.GzipHandler@1f39b3ba, org.spark_project.jetty.server.handler.gzip.GzipHandler@17d25e1d, o.s.j.s.ServletContextHandler@f776b4a{/metrics/json,null,SHUTDOWN,@Spark}] 
+16:04:36,700 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED org.spark_project.jetty.server.handler.ContextHandlerCollection@7fb28ed[org.spark_project.jetty.server.handler.gzip.GzipHandler@764d54a0, org.spark_project.jetty.server.handler.gzip.GzipHandler@7ec729be, org.spark_project.jetty.server.handler.gzip.GzipHandler@130ad58d, org.spark_project.jetty.server.handler.gzip.GzipHandler@37a0c3c6, org.spark_project.jetty.server.handler.gzip.GzipHandler@751526a7, org.spark_project.jetty.server.handler.gzip.GzipHandler@58829c2c, org.spark_project.jetty.server.handler.gzip.GzipHandler@7c8cea05, org.spark_project.jetty.server.handler.gzip.GzipHandler@20e73e41, org.spark_project.jetty.server.handler.gzip.GzipHandler@549fe529, org.spark_project.jetty.server.handler.gzip.GzipHandler@110f66e3, org.spark_project.jetty.server.handler.gzip.GzipHandler@1b89debc, org.spark_project.jetty.server.handler.gzip.GzipHandler@590ab84, org.spark_project.jetty.server.handler.gzip.GzipHandler@597eb9ac, org.spark_project.jetty.server.handler.gzip.GzipHandler@7db63a01, org.spark_project.jetty.server.handler.gzip.GzipHandler@a1be5cb, org.spark_project.jetty.server.handler.gzip.GzipHandler@419c70f6, org.spark_project.jetty.server.handler.gzip.GzipHandler@15e748b5, org.spark_project.jetty.server.handler.gzip.GzipHandler@2e845f1c, org.spark_project.jetty.server.handler.gzip.GzipHandler@1eda853f, org.spark_project.jetty.server.handler.gzip.GzipHandler@7a0df38e, org.spark_project.jetty.server.handler.gzip.GzipHandler@3b0d9da, org.spark_project.jetty.server.handler.gzip.GzipHandler@2a20aa4e, org.spark_project.jetty.server.handler.gzip.GzipHandler@1ae2028d, org.spark_project.jetty.server.handler.gzip.GzipHandler@1f39b3ba, org.spark_project.jetty.server.handler.gzip.GzipHandler@17d25e1d, o.s.j.s.ServletContextHandler@f776b4a{/metrics/json,null,SHUTDOWN,@Spark}] 
+16:04:36,700 [main] DEBUG util.component.AbstractLifeCycle  - stopping org.spark_project.jetty.server.handler.ErrorHandler@3b9c386d 
+16:04:36,700 [main] DEBUG server.handler.AbstractHandler  - stopping org.spark_project.jetty.server.handler.ErrorHandler@3b9c386d 
+16:04:36,700 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED org.spark_project.jetty.server.handler.ErrorHandler@3b9c386d 
+16:04:36,700 [main] DEBUG util.component.AbstractLifeCycle  - stopping SparkUI{STARTED,8<=8<=200,i=8,q=0} 
+16:04:36,700 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED SparkUI{STOPPED,8<=8<=200,i=0,q=0} 
+16:04:36,700 [main] DEBUG util.component.AbstractLifeCycle  - STOPPED org.spark_project.jetty.server.Server@1bd6bfb0 
+16:04:36,700 [main] INFO  spark.ui.SparkUI                - Stopped Spark web UI at http://DESKTOP-8F3633O:4040 
+16:04:36,702 [dispatcher-event-loop-1] INFO  apache.spark.MapOutputTrackerMasterEndpoint  - MapOutputTrackerMasterEndpoint stopped! 
+16:04:36,790 [main] INFO  storage.memory.MemoryStore      - MemoryStore cleared 
+16:04:36,791 [main] INFO  spark.storage.BlockManager      - BlockManager stopped 
+16:04:36,791 [main] INFO  spark.storage.BlockManagerMaster  - BlockManagerMaster stopped 
+16:04:36,791 [dispatcher-event-loop-0] INFO  spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint  - OutputCommitCoordinator stopped! 
+16:04:36,795 [main] INFO  apache.spark.SparkContext       - Successfully stopped SparkContext 
+16:04:36,795 [main] DEBUG itcast.cluster.JobClusterService  - cluster 1 共有:19 
+16:04:36,795 [main] DEBUG itcast.cluster.JobClusterService  - cluster 2 共有:6 
+16:04:36,795 [main] DEBUG itcast.cluster.JobClusterService  - cluster 3 共有:1 
+16:04:36,795 [main] DEBUG driver.protocol.insert          - Inserting 1 documents into namespace job_cloud.job_cloud_framework on connection [connectionId{localValue:2, serverValue:7}] to server localhost:27017 
+16:04:36,858 [main] DEBUG driver.protocol.insert          - Insert completed 
+16:04:36,860 [main] INFO  mongodb.driver.connection       - Closed connection [connectionId{localValue:2, serverValue:7}] to localhost:27017 because the pool has been closed. 
+16:04:36,860 [main] DEBUG mongodb.driver.connection       - Closing connection connectionId{localValue:2, serverValue:7} 
+16:04:36,861 [cluster-ClusterId{value='5d89cde3310dae3e68a87842', description='null'}-localhost:27017] DEBUG mongodb.driver.connection       - Closing connection connectionId{localValue:1, serverValue:6} 
+16:04:36,905 [main] DEBUG hbase.zookeeper.ReadOnlyZKClient  - Close zookeeper connection 0x0e7edb54 to master:2181 
+16:04:36,905 [main] DEBUG hbase.ipc.AbstractRpcClient     - Stopping rpc client 
+16:04:36,905 [ReadOnlyZKClient-master:2181@0x0e7edb54] DEBUG apache.zookeeper.ZooKeeper      - Closing session: 0x1000015d31f0004 
+16:04:36,905 [ReadOnlyZKClient-master:2181@0x0e7edb54] DEBUG apache.zookeeper.ClientCnxn     - Closing client for session: 0x1000015d31f0004 
+16:04:36,923 [main] DEBUG itcast.dao.HBaseStorage         - HBase Connection Close! 
+16:04:36,933 [ReadOnlyZKClient-master:2181@0x0e7edb54-SendThread(master:2181)] DEBUG apache.zookeeper.ClientCnxn     - Reading reply sessionid:0x1000015d31f0004, packet:: clientPath:null serverPath:null finished:false header:: 4,-11  replyHeader:: 4,17179869231,0  request:: null response:: null 
+16:04:36,933 [ReadOnlyZKClient-master:2181@0x0e7edb54] DEBUG apache.zookeeper.ClientCnxn     - Disconnecting client for session: 0x1000015d31f0004 
+16:04:36,933 [ReadOnlyZKClient-master:2181@0x0e7edb54] INFO  apache.zookeeper.ZooKeeper      - Session: 0x1000015d31f0004 closed 
+16:04:36,933 [ReadOnlyZKClient-master:2181@0x0e7edb54-EventThread] INFO  apache.zookeeper.ClientCnxn     - EventThread shut down 
+16:04:36,944 [Thread-2] INFO  spark.util.ShutdownHookManager  - Shutdown hook called 
+16:04:36,945 [Thread-2] INFO  spark.util.ShutdownHookManager  - Deleting directory C:\Users\拼命三石\AppData\Local\Temp\spark-f19efce5-a7f8-4d94-b3de-712911a5fee8 

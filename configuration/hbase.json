@@ -1,0 +1,12 @@
+{
+  "server_ip" : "master",
+  "server_port" : "2181",
+  "parent_path" : "/hbase",
+  "table_name" : "job_all,job_cloud",
+  "colFamilies" : [
+    {
+      "1" : "message",
+      "2" : "cloud"
+    }
+  ]
+}

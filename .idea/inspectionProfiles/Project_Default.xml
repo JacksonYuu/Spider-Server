@@ -1,0 +1,117 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AmdModulesDependencies" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ArrayInDataClass" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ChangeToOperator" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ClassName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CoffeeScriptFunctionSignatures" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CoffeeScriptModulesDependencies" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ConstPropertyName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ConstantConditionIf" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ConvertTryFinallyToUseCall" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CopyWithoutNamedArguments" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CssFloatPxLength" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CssOptimizeSimilarProperties" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="Duplicates" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ES6CheckImport" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ES6ConvertVarToLetConst" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ES6ModulesDependencies" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ES6PossiblyAsyncFunction" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="EnumEntryName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="FunctionName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GrUnnecessaryAlias" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GrUnresolvedAccess" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="HasPlatformType" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ImplicitNullableNothingType" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ImplicitlyExposedWebServiceMethods" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="IntroduceWhenSubject" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSCheckFunctionSignatures" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSDeprecatedSymbols" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSIgnoredPromiseFromCall" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSUndeclaredVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSUndefinedPropertyAssignment" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSUnresolvedFunction" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSUnresolvedVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSValidateTypes" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSXNamespaceValidation" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JavaCollectionsStaticMethod" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JoinDeclarationAndAssignment" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="KotlinDoubleNegation" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="KotlinRedundantOverride" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="LessResolvedByNameOnly" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="LocalVariableName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="MayBeConstant" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="MisspelledHeader" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="MoveLambdaOutsideParentheses" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="MoveSuspiciousCallableReferenceIntoParentheses" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="NodeModulesDependencies" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="NpmUsedModulesInstalled" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="NullChecksToSafeCall" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ObjectPropertyName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PackageName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PrivatePropertyName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PropertyName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ProtectedInFinal" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantAsync" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantGetter" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantIf" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantLambdaArrow" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantObjectTypeCheck" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantSetter" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RemoveCurlyBracesFromTemplate" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RemoveEmptyPrimaryConstructor" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RemoveEmptySecondaryConstructorBody" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RemoveExplicitSuperQualifier" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RemoveExplicitTypeArguments" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RemoveToStringInStringTemplate" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ReplaceArrayOfWithLiteral" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ReplaceCallWithBinaryOperator" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ReplacePutWithAssignment" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ReplaceRangeToWithUntil" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ReplaceSizeCheckWithIsNotEmpty" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ReplaceSizeZeroCheckWithIsEmpty" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ReplaceToWithInfixForm" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ReplaceWithOperatorAssignment" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SassScssResolvedByNameOnly" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SimplifiableCallChain" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SimplifyBooleanWithConstants" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SimplifyNegatedBinaryExpression" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SimplifyWhenWithBooleanConstantCondition" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SortModifiers" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SpringBootBootstrapConfigurationInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpringFacetProgrammaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SuspiciousEqualsCombination" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TestFunctionName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TypeParameterFindViewById" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TypeScriptAbstractClassConstructorCanBeMadeProtected" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TypeScriptAccessibilityCheck" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TypeScriptFieldCanBeMadeReadonly" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TypeScriptUMDGlobal" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TypeScriptUnresolvedFunction" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TypeScriptUnresolvedVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TypeScriptValidateJSTypes" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="UnnecessaryVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="UsePropertyAccessSyntax" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="WhenWithOnlyElse" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="WrapUnaryOperator" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="WrongPropertyKeyValueDelimiter" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="unused" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="LOCAL_VARIABLE" value="true" />
+      <option name="FIELD" value="true" />
+      <option name="METHOD" value="true" />
+      <option name="CLASS" value="true" />
+      <option name="PARAMETER" value="true" />
+      <option name="REPORT_PARAMETER_FOR_PUBLIC_METHODS" value="true" />
+      <option name="ADD_MAINS_TO_ENTRIES" value="true" />
+      <option name="ADD_APPLET_TO_ENTRIES" value="true" />
+      <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
+      <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
+    </inspection_tool>
+  </profile>
+</component>

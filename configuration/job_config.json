@@ -1,0 +1,54 @@
+{
+  "wbsitename" : "51Job",
+  "initUrl" : "/xueqing-web/course/index/1",
+  "fields" : [
+    {
+      "name" : "requirement",
+      "chinesename" : "公司要求",
+      "type" : "class",
+      "value" : "t1",
+      "position" : "0",
+      "text" : "text"
+    },
+    {
+      "name" : "company",
+      "chinesename" : "公司名称",
+      "type" : "class",
+      "value" : "cname",
+      "position" : "0",
+      "text" : "text"
+    },
+    {
+      "name" : "companymess",
+      "chinesename" : "公司信息",
+      "type" : "class",
+      "value" : "msg,ltype",
+      "position" : "0",
+      "text" : "text"
+    },
+    {
+      "name" : "jobmess",
+      "chinesename" : "岗位信息",
+      "type" : "class",
+      "value" : "cn",
+      "position" : "0",
+      "text" : "text"
+    },
+    {
+      "name" : "description",
+      "chinesename" : "职位描述",
+      "type" : "class",
+      "value" : "bmsg,job_msg,inbox",
+      "position" : "0",
+      "text" : "text"
+    },
+    {
+      "name" : "categoryAndKey",
+      "chinesename" : "职业类型与关键字",
+      "type" : "class",
+      "value" : "mt10",
+      "position" : "0",
+      "text" : "text"
+    }
+  ]
+}

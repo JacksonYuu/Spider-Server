@@ -1,0 +1,8 @@
+{
+  "hbase_tablename" : "job_cloud",
+  "hbase_family" : "cloud",
+  "hbase_column" : "education,amount",
+  "mongodb_database" : "job_internet",
+  "mongodb_collection" : "job_education_distribution",
+  "education" : "初中,高中,中技,中专,大专,本科,硕士,博士",
+}
